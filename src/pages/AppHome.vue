@@ -1,5 +1,6 @@
 <script>
 import { store } from "../assets/data/store";
+import Test from "../components/test.vue";
 
 export default {
   data() {
@@ -8,7 +9,9 @@ export default {
     };
   },
 
-  components: {},
+  components: {
+    Test,
+  },
 
   computed: {},
 
@@ -24,11 +27,18 @@ export default {
 
 <template>
   <div class="debug"><h1>app home</h1></div>
-  {{ store.test }}
 
   <router-link :to="{ name: 'list' }" class="btn btn-primary">
-    Leggi articolo
+    Vai alla lista
   </router-link>
+
+  <div class="my-5">
+    <Test />
+  </div>
+
+  <div>
+    {{ store.test }}
+  </div>
 </template>
 
 <style lang="scss" scoped></style>

@@ -3,15 +3,23 @@ import Test from "./components/test.vue";
 </script>
 
 <template>
-  <div class="container my-3">
-    <div class="my-5">
-      <Test />
-    </div>
-    <router-view></router-view>
-  </div>
+  <div class="backgroundtotal">
+    <div class="container my-2">
+      <div class="d-flex">
+        <div class="debug">hullla cabuklla</div>
 
-  <!-- ricorda di importare axios negli elementi che ti interessano -->
+        <div class="Main-Display flex-grow-1">
+          <router-view></router-view>
+        </div>
+        <div class="debug">cicico</div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <!-- <style lang="scss" scoped></style> -->
-<style lang="scss"></style>
+<style lang="scss">
+.backgroundtotal {
+  background-color: black;
+}
+</style>
