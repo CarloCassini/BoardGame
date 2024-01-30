@@ -26,19 +26,12 @@ export default {
 </script>
 
 <template>
-  <div class="debug"><h1>app home</h1></div>
+  <div class="debug text-center"><h1>hitler escape</h1></div>
 
-  <router-link :to="{ name: 'list' }" class="btn btn-primary">
+  <!-- <router-link :to="{ name: 'list' }" class="btn btn-primary">
     Vai alla lista
-  </router-link>
-
-  <div class="my-5">
-    <Test />
-  </div>
-
-  <div>
-    {{ store.test }}
-  </div>
+  </router-link> -->
+  <div class="container debug">ads</div>
 </template>
 
 <style lang="scss" scoped></style>

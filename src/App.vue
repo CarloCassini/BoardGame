@@ -20,6 +20,6 @@ import Test from "./components/test.vue";
 <!-- <style lang="scss" scoped></style> -->
 <style lang="scss">
 .backgroundtotal {
-  background-color: black;
+  background-color: greenyellow;
 }
 </style>
